@@ -29,13 +29,27 @@ public class if_else {
 
         //Write a program to print the absolute values of following numbers
 
-        int a=-10;
-        if(a<0){
-            System.out.println(-1*a);
-        }
-        else{
-            System.out.println(a);
-        }
+//        int a=-10;
+//        if(a<0){
+//            System.out.println(-1*a);
+//        }
+//        else{
+//            System.out.println(a);
+//        }
 
+
+
+       int num=5;
+//        if(num%2==0){
+//            System.out.println("Number is even");
+//        }
+//        else{
+//            System.out.println("Number is odd");
+//        }
+
+
+
+        String output = num%2==0? "Number is even":"Number is odd";
+        System.out.println(output);
     }
 }
