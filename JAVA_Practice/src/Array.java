@@ -61,7 +61,70 @@ public class Array {
 //            System.out.println(i);
 //        }
 
-        int arr[][] = new int[3][2];
+
+
+
+
+        //2D array
+
+        int arr[][] = {{1,2,3},{4,5,6},{7,8,9}};
+
+//        for(int i=0;i<arr.length;i++){
+//            for(int j=0;j<arr[0].length;j++) {
+//                System.out.print(arr[i][j]+" ");
+//            }
+//            System.out.println();
+//        }
+
+
+
+//        for(int i=0;i<arr.length;i++){
+//            for(int j=0;j<arr[0].length;j++) {
+//                if(i==0 || i==arr.length-1) {
+//                    System.out.print(arr[i][j] + " ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+//        for(int i=0;i<arr.length;i++){
+//            for(int j=0;j<arr[0].length;j++) {
+//                if(i==0) {
+//                    System.out.print(arr[i][j] + " ");
+//                }
+//                else if(i==arr.length-1) {
+//                    System.out.print(arr[i][j] + " ");
+//                }
+//                else if(j==arr[0].length-1) {
+//                    System.out.print(arr[i][j] + " ");
+//                }
+//                else if(j==0) {
+//                    System.out.print(arr[i][j] + " ");
+//                }
+//                else{
+//                    System.out.print("  ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+
+        for(int i=0;i<arr.length;i++){
+            for(int j=0;j<arr[0].length;j++) {
+
+                if(i>=j) {
+                    System.out.print(arr[i][j] + " ");
+                }
+
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
+
+//        int arr[][] = new int[3][2];
 
     }
 }
