@@ -18,16 +18,16 @@ class Student{
 public class Static {
     public static void main(String args[]){
         Student s1 = new Student();
-        s1.studentName = "kartik";
+      //  s1.studentName = "kartik";
         s1.rollno = 1;
-        Student.uniName = "LPU";
+      //  Student.uniName = "LPU";
         s1.output();
         s1.myStaticMethod();
 
         Student s2 = new Student();
-        s2.studentName = "Tanishk";
+       // s2.studentName = "Tanishk";
         s2.rollno =2;
-        Student.uniName = "LPU";
+       // Student.uniName = "LPU";
         s2.output();
 
     }

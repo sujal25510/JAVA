@@ -5,7 +5,7 @@ class Person{
 
     public Person(){
         System.out.println("from constructor");
-        name = "Sujal";
+        //name = "Sujal";
         age = 11;
         mob = 1234;
     }
@@ -25,10 +25,10 @@ class Person{
 
 public class Constructor {
     public static void main(String args[]){
-        Person p1 = new Person("Madhvan",34,2345);
+        //Person p1 = new Person("Madhvan",34,2345);
         Person p2 = new Person();
 //        Person p3 = new Person();
-        System.out.println(p1.name);
+      //  System.out.println(p1.name);
 
     }
 
