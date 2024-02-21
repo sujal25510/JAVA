@@ -25,14 +25,25 @@
 //}
 
 class A{
-    void print(){
+    public A() {
+        super();
         System.out.println("from A");
     }
+    public A(int n1,int n2){
+        super();
+        System.out.println("From A  int");
+    }
 }
-class B{
-    void print(){
+class B extends A{
+    public B() {
+        super();
         System.out.println("from B");
     }
+    public B(int n){
+        super(2,2);
+        System.out.println("From B  int");
+        }
+
 }
 
 class inheritance {
